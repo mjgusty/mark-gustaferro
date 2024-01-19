@@ -29,7 +29,7 @@ export default function Home() {
             </ul>
           </nav>
           <div>
-            <Image className="relative mx-auto object-contain w-20 h-20 rounded-full border border-white border-solid" src={zion}/>
+            <Image className="relative mx-auto object-contain w-20 h-20 rounded-full border border-white border-solid" src={zion} alt="Me"/>
           </div>
           <div className= "text-black py-3 px-5 max-w-2xl mx-auto dark:text-white">
             <h3 className="font-medium text-base">About Me</h3>
@@ -41,7 +41,7 @@ export default function Home() {
             </p>
           </div>
           <div className="text-gray-600 pt-5 text-3xl flex justify-center gap-3 dark:text-white">
-            <button onClick={() => window.location = 'mailto:yourmail@domain.com'}><AiFillMail/></button>
+            <button onClick={() => window.location.href = 'mailto:yourmail@domain.com'}><AiFillMail/></button>
             <a href="https://www.linkedin.com/in/mark-gustaferro-3894aa1a5" target="blank_"><AiFillLinkedin/></a>
           </div>
         </section>
