@@ -36,7 +36,7 @@ export default function Page() {
                   <Image className="relative object-contain w-20 h-20 rounded mr-5" src={benford}/>
                   <div>
                     <h3 className="text-md font-medium">
-                        Using Benford's Law to Identify Stolen Elections
+                        Using Benford&apos;s Law to Identify Stolen Elections
                     </h3>
                     <p className="text-sm pt-2">
                         How to use the natural frequency of digits to identify election fraud.

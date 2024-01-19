@@ -28,7 +28,7 @@ export default function Page() {
               </ul>
             </nav>
             <div className="text-black py-5 max-w-2xl mx-auto dark:text-white">
-              <h3 className="font-medium text-xl">Using Benford's Law to Identify Stolen Elections</h3>
+              <h3 className="font-medium text-xl">Using Benford&apos;s Law to Identify Stolen Elections</h3>
               <p className="text-sm pt-2">
                         How to use the natural frequency of digits to identify election fraud.
               </p>

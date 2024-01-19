@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
-        <title>Mark Gustaferro's personal website</title>
+        <title>Mark Gustaferro&apos;s personal website</title>
         <meta name="description" content="Mark Gustaferro's personal website"/>
         <link rel="icon" href="/favicon.ico"/>
       </Head>
@@ -35,7 +35,7 @@ export default function Home() {
             <h3 className="font-medium text-base">About Me</h3>
             <br></br>
             <p>
-              I'm currently working as the Chief of Staff at Sora Finance, a liabilities management platform
+              I&apos;m currently working as the Chief of Staff at Sora Finance, a liabilities management platform
               revolutionizing the way financial advisors serve their clients.  I live in San Francisco and, in my free time, I enjoy
               singing, playing guitar, skiing, cooking, reading the New Yorker, watching films, and doing math puzzles.
             </p>
