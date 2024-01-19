@@ -13,7 +13,7 @@ export default function Page() {
     return (
       <div className={darkMode ? "dark" : ""}>
         <Head>
-          <title>Mark Gustaferro's personal website</title>
+          <title>Mark Gustaferro&apos;s personal website</title>
           <meta name="description" content="Mark Gustaferro's personal website"/>
           <link rel="icon" href="/favicon.ico"/>
         </Head>
