@@ -33,7 +33,7 @@ export default function Page() {
               <br></br>
               <a href="./benford">
                 <div className="shadow-lg p-7 rounded text-black dark:text-white border border-white" style={{display:'flex', alignItems:'center'}}>
-                  <Image className="relative object-contain w-20 h-20 rounded mr-5" src={benford}/>
+                  <Image className="relative object-contain w-20 h-20 rounded mr-5" alt="Normal distribution" src={benford}/>
                   <div>
                     <h3 className="text-md font-medium">
                         Using Benford&apos;s Law to Identify Stolen Elections
@@ -46,7 +46,7 @@ export default function Page() {
               </a>
             </div>
             <div className="text-gray-600 pt-5 text-3xl flex justify-center gap-3 dark:text-white">
-              <button onClick={() => window.location = 'mailto:yourmail@domain.com'}><AiFillMail/></button>
+              <button onClick={() => window.location.href = 'mailto:mark.gustaferro@aya.yale.edu'}><AiFillMail/></button>
               <a href="https://www.linkedin.com/in/mark-gustaferro-3894aa1a5" target="blank_"><AiFillLinkedin/></a>
             </div>
           </section>

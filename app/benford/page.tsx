@@ -34,7 +34,7 @@ export default function Page() {
               </p>
             </div>
             <div className="text-gray-600 pt-5 text-3xl flex justify-center gap-3 dark:text-white">
-              <button onClick={() => window.location = 'mailto:yourmail@domain.com'}><AiFillMail/></button>
+              <button onClick={() => window.location.href = 'mailto:mark.gustaferro@aya.yale.edu'}><AiFillMail/></button>
               <a href="https://www.linkedin.com/in/mark-gustaferro-3894aa1a5" target="blank_"><AiFillLinkedin/></a>
             </div>
           </section>
