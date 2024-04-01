@@ -5,6 +5,7 @@ import {BsFillMoonStarsFill} from 'react-icons/bs'
 import {AiFillLinkedin} from 'react-icons/ai';
 import { AiFillMail } from "react-icons/ai";
 import { useState } from "react";
+import LikeButton from '../number_button';
 
 export default function Page() {
     const [darkMode, setDarkMode] = useState(false);
@@ -37,11 +38,6 @@ export default function Page() {
               <button onClick={() => window.location.href = 'mailto:mark.gustaferro@aya.yale.edu'}><AiFillMail/></button>
               <a href="https://www.linkedin.com/in/mark-gustaferro-3894aa1a5" target="blank_"><AiFillLinkedin/></a>
             </div>
-          </section>
-          
-  
-          <section>
-            <div></div>
           </section>
         </main>
       </div>
